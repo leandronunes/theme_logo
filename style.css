@@ -1,11 +1,13 @@
 @import url(../base/style.css);
 
 html {
-  background: #204A87 url(images/buracos.png);
+/*  background-color: #204A87 ;*/
+  background-color: #eceff6;
 }
 
 body {
-  background: url(images/buracos-grad.png) repeat-x;
+  background-color: #eceff6;
+/*  background: url(images/buracos-grad.png) repeat-x;*/
   width: auto;
 }
 
@@ -46,7 +48,7 @@ body {
 
 #navigation-end {
   position: absolute;
-  top: 0px;
+  top: -1px;
   right: -33px;
   width: 33px;
   height: 70px;
@@ -88,7 +90,7 @@ body {
 
 #navigation a {
   border-left-color: transparent;
-  color: #fff;
+  color: #145d7b;
 }
 
 #navigation a:hover {
@@ -112,7 +114,8 @@ body {
 
 #theme-footer a,
 #theme-footer a:hover {
-  color: #fff;
+  /*color: #fff;*/
+  color: #145d7b;
 }
 
 #copyright p {
@@ -124,6 +127,7 @@ body {
   margin: auto;
   padding: 15px 0px;
   opacity: 0.7;
-  color: #FFF;
+/*  color: #FFF;*/
+  color: #145d7b;
   font-size: 12px;
 }
