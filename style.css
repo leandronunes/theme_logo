@@ -29,7 +29,7 @@ body {
   margin: 0px;
   padding: 0px;
   position: absolute;
-  top: -21px;
+  top: 3px;
   left: -44px;
   width: 500px;
   height: 153px;
@@ -43,7 +43,7 @@ body {
   width: auto;
   height: 59px;
   text-align: right;
-  background: #2b5896 url(images/top-menu-bg.png) repeat-x;
+  background: #cedfe9 url(images/top-menu-bg.png) repeat-x;
 }
 
 #navigation-end {
@@ -63,7 +63,7 @@ body {
 }
 
 #navigation .menu-submenu ul {
-  background: #4462A1;
+  background: #cedfe9;
   height: auto;
   padding-left: 0;
   border-color: #fff;
@@ -75,12 +75,12 @@ body {
 
 #navigation li .menu-submenu-trigger {
   border-color: #fff;
-  background-color: #4462A1;
+  background-color: #cedfe9;
   background-image: url(images/down-arrow-light.png);
 }
 
 #navigation li:hover .menu-submenu-trigger:hover {
-  background-color: #324885;
+  background-color: #cedfe9;
 }
 
 #navigation li {
@@ -94,7 +94,7 @@ body {
 }
 
 #navigation a:hover {
-  background: #324885;
+  background: #cedfe9;
 }
 
 #site-title a {

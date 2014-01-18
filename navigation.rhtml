@@ -1,7 +1,10 @@
 <li>
-  <a href="/browse/people" id="submenu-people"><span class="icon-menu-people">People</span></a><a href="#" class="menu-submenu-trigger up" id="submenu-people-trigger" onclick="toggleSubmenu(this,'',[{&quot;More Recent&quot;: {&quot;href&quot;: &quot;/browse/people/more_recent&quot;}}, {&quot;More Active&quot;: {&quot;href&quot;: &quot;/browse/people/more_active&quot;}}, {&quot;More Popular&quot;: {&quot;href&quot;: &quot;/browse/people/more_popular&quot;}}]); return false"><span>People Menu</span></a>
+  <%= search_people_menu %>
 </li>
 <li>
-  <a href="/browse/communities" id="submenu-communities"><span class="icon-menu-community">Communities</span></a><a href="#" class="menu-submenu-trigger up" id="submenu-communities-trigger" onclick="toggleSubmenu(this,'',[{&quot;More Recent&quot;: {&quot;href&quot;: &quot;/browse/communities/more_recent&quot;}}, {&quot;More Active&quot;: {&quot;href&quot;: &quot;/browse/communities/more_active&quot;}}, {&quot;More Popular&quot;: {&quot;href&quot;: &quot;/browse/communities/more_popular&quot;}}]); return false"><span>Communities Menu</span></a>
+  <%= search_communities_menu %>
+  </li>
+<li>
+  <%= search_contents_menu %>
 </li>
-<li><a href="/assets/events"><span class="icon-menu-events">Agenda Livre</span></a></li>
+<li><a href="/search/events"><span class='icon-menu-events'><%= _('Events') %></span></a></li>
